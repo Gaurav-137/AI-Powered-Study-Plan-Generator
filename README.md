@@ -1,6 +1,6 @@
 # AI‑Powered Study Plan Generator (Local‑First, No External AI)
 
-A React + TypeScript web app that creates personalized study schedules from your exam dates, subjects, and daily availability. It prioritizes what to study and when, offers a drag‑and‑drop planner, and adapts when life happens — all without calling external AI APIs.
+A React + TypeScript web app that creates personalised study schedules from your exam dates, subjects, and daily availability. It prioritises what to study and when, offers a drag‑and‑drop planner, and adapts when life happens — all without calling external AI APIs.
 
 > Note: This README is intentionally high‑level to protect the unique implementation. I’m happy to walk through the deeper technical details during an interview.
 
@@ -29,24 +29,24 @@ Students don’t need more to‑do lists — they need realistic, explainable pl
 - Explainable decisions: Each block includes plain‑English reasoning for trust and accountability.
 - Research‑backed planning: Spaced repetition, interleaving, breaks, and session caps.
 - Resilient planning: Miss a session? The system gracefully reflows the affected window.
-- Accessibility‑minded: Keyboard‑friendly DnD, color‑safe palette, focus mode timer.
+- Accessibility‑minded: Keyboard‑friendly DnD, colour-safe palette, focus mode timer.
 
 ---
 
-## Live demo & screenshots
+<!--## Live demo & screenshots
 - Demo: [link here]
 - 2‑min walkthrough video: [link here]
 - Screenshots: [folder or embedded images]
 
-> The demo runs with sample data by default. No personal data is required.
+> The demo runs with sample data by default. Please note that no personal data is required.
 
----
+---  -->
 
 ## How it works (high level)
 - Inputs: Subjects, tasks, total effort, due dates, availability windows, preferences.
 - Engine: A constraint‑aware scheduler computes a feasible plan, then improves it with small, time‑boxed refinements.
 - UI: A fast calendar/timeline with drag‑and‑drop and a “Why this here?” explainer.
-- Rescheduling: Localized re‑planning when you move or miss blocks, keeping the rest stable.
+- Rescheduling: Localised re‑planning when you move or miss blocks, keeping the rest stable.
 - Privacy: Data stored locally; offline‑ready. Optional encrypted sync can be toggled.
 
 Simple architecture (high level):
@@ -61,7 +61,7 @@ Plan Explainers
 ## Feature highlights
 - Add exams, tasks, and effort; define availability and preferences.
 - Smart session sizing with breaks and daily load limits.
-- Prioritization that respects due dates, difficulty, and fairness across subjects.
+- Prioritisation that respects due dates, difficulty, and fairness across subjects.
 - Review sessions spaced over time (adjusted by your feedback).
 - Drag‑and‑drop editing with auto conflict resolution.
 - Plan quality indicators and lightweight analytics.
@@ -78,18 +78,6 @@ Plan Explainers
 - PWA: Works offline; installable
 
 > Libraries and deeper implementation specifics intentionally omitted here.
-
----
-
-## Getting started (local)
-- Requirements: Node 18+
-- Setup:
-  1. Clone the repo
-  2. `npm install`
-  3. `npm run dev`
-- Open: http://localhost:3000 (or the port shown)
-
-> A small seed dataset is included so you can generate a plan immediately.
 
 ---
 
@@ -129,8 +117,10 @@ Plan Explainers
 
 ---
 
-## License
-Copyright (c) [Your Name]. All rights reserved.
-This project is provided for personal portfolio review. No commercial use, redistribution, or derivative works without permission.
+## 🙋 About the Author
+**Gaurav Lad** 
+- Passionate about **Cloud Security, AI/ML, and Scalable Web Applications**  
+- 📩 Email: ladgaurav601@gmail.com  
+- 🌐 [LinkedIn](https://www.linkedin.com/in/gaurav-lad137) | [GitHub](https://github.com/Gaurav-137)
 
 ---
