@@ -1,6 +1,6 @@
 # AI‑Powered Study Plan Generator (Local‑First, No External AI)
 
-A React + TypeScript web app that creates personalised study schedules from your exam dates, subjects, and daily availability. It prioritises what to study and when, offers a drag‑and‑drop planner, and adapts when life happens — all without calling external AI APIs.
+A React + TypeScript web app that creates personalised study schedules from your exam dates, subjects, and daily availability. It prioritises what to study and when, offers a drag‑and‑drop planner, and adapts when life happens, all without calling external AI APIs.
 
 > Note: This README is intentionally high‑level to protect the unique implementation. I’m happy to walk through the deeper technical details during an interview.
 
